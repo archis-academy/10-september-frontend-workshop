@@ -1,0 +1,27 @@
+/* % -> parent'ının içerisinde yüzde kaç yer kapladığı */
+/* px -> px -> 1 pixel her yerde aynı değer */
+/* em -> parent'ının font-size özelliğine göre belirlenir 1em -> 16px */
+/* rem -> html'in font-size özelliğine göre belirlenir html font-size: 20px -> 1rem = 20px */
+/* vw -> ekranın gözüken kısmının genişliğinin yüzdesi */
+/* vh -> ekranın gözüken kısmının yüksekliğinin yüzdesi */
+
+*{
+    margin: 0;
+}
+
+.test-container{
+    border: 10px solid green;
+    height: 100vh;
+    width: 50vw;
+
+    font-size: 20px;
+
+    padding: 1em;
+    margin-top: 2rem;
+
+    margin: 0 auto;
+}
+
+h1{
+    border: 2px solid red;
+}

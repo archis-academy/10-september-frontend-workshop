@@ -1,0 +1,53 @@
+body{
+    height: 1000px;
+}
+
+.card{
+    background-color: #0d0d0d;
+    color: white;
+    width: 400px;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 120px auto;
+
+    position: relative;
+    z-index: -1;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-discount{
+    background-color: darkred;
+    padding: 4px 10px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: -8px;
+    right: -35px;
+
+    transform: rotate(24deg);
+}
+
+
+.nav{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    position: fixed;
+    width: 99%;
+    top: 5px;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.archis-logo{
+    position: fixed;
+    top: 60px;
+    right: 0;
+}
